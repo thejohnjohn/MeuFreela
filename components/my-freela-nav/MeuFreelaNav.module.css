@@ -1,0 +1,17 @@
+.navBar{
+    background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    
+    @apply flex flex-row items-center justify-between content-center h-14
+}
+
+.companyName{
+    @apply text-3xl inline font-bold text-white p-1.5
+}
+
+.socialMediaIconGroup{
+    @apply flex flex-row
+}
+
+.socialMediaIcon{
+    @apply mr-2 h-5 w-5
+}

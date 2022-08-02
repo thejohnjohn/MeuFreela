@@ -1,0 +1,90 @@
+.sec1{
+    background: rgba(0,0,0,0.8);
+    background-image: url("/faizur-rehman-pHPzdEHN6Os-unsplash 1.png");
+    background-blend-mode: darken; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    @apply w-full h-screen bg-center flex flex-col justify-center items-center  
+           md:items-start md:px-8
+           lg:px-8
+}
+.sec1Title1{
+    @apply text-2xl text-center font-normal text-white
+           md:text-3xl md:leading-[35px]
+}
+
+.sec1Title2{
+    @apply text-[2.4rem] text-center font-bold text-white my-5
+           md:text-6xl md:text-left md:w-[60%]
+           lg:text-7xl lg:text-left lg:w-[60%] lg:leading-[94px]
+}
+
+.sec1Button{
+    @apply h-16 w-3/5 bg-red-500 hover:bg-red-700 mt-10 px-2 text-2xl text-white rounded-lg 
+           md:w-2/5
+}
+
+
+/*-------------------------*/
+
+.sec2{
+    @apply flex flex-col mt-16 justify-center items-center 
+           md:flex-row md:h-3/6 md:w-4/5 md:ml-[10%]
+}
+
+.sec2FullDesc{
+    @apply flex flex-col text-[#333333]
+}
+
+.sec2Title{
+    @apply mb-8 text-3xl font-bold text-center text-[#333333]
+           md:text-left md:text-5xl md:leading-[59px]
+}
+
+.sec2Desc{
+    @apply mb-8 text-base leading-5 text-center
+           md:text-left md:text-xl
+           lg:text-2xl
+}
+
+.sec2Image{
+    @apply w-[327px] h-[372px]
+           md:ml-11
+}
+
+.sec2ImageFooter{
+    background-color: #EAEAEA;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%, 0% 100%);
+    
+    @apply relative bottom-20 h-24 w-full
+}
+
+/*-------------------------*/
+
+.sec3{
+    @apply relative bottom-20 flex flex-col mt-16
+           md:h-3/6 md:w-4/5 md:ml-[10%]
+}
+
+.sec3Title{
+    @apply text-[#333333] mb-8 text-5xl font-bold text-center
+           md:text-left md:text-6xl leading-[59px]
+}
+
+.sec3Desc{
+    @apply text-[#333333] mb-8 text-xl leading-4 text-center mx-3
+           md:text-left md:text-2xl md:mx-0
+}
+
+/*-------------------------*/
+
+.footer{
+    background: #eaeaea;
+    @apply  py-3.5
+}
+
+.challenge{
+    @apply text-center text-[#333333]
+}

@@ -1,0 +1,23 @@
+.contactForm{
+    @apply flex flex-col justify-center items-center
+           md:flex-row md:w-full md:space-x-5 md:justify-start
+}
+
+.formInput{
+    @apply flex flex-col mb-2 w-1/2
+           md:w-[30%]
+}
+
+.label{
+    @apply text-[#333333] text-sm font-bold
+}
+
+.input{
+    @apply h-10 w-full px-2 text-base border-2 rounded-lg border-gray-300
+           md:h-16
+}
+
+.submit{
+    @apply h-10 w-1/2 mt-2 px-2 text-2xl bg-green-500 hover:bg-green-700 text-white rounded-lg
+           md:self-center md:w-[30%] md:h-16
+}
